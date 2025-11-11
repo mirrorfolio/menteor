@@ -17,7 +17,9 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      <script src='https://www.noupe.com/embed/019a7255aa8e741495ca9995c2a18f60e60e.js'></script>
+      </body>
     </html>
   );
 }
